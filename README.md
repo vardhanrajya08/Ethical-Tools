@@ -1,8 +1,10 @@
 # Windows_Tools
-Get your life easy on windows.
+‼ 0.2 version - on 1st week of june 2021 [with 20 packages/tools] ‼
 
-Copy this code and save it as name.bat.
+👉 Get your life easy on windows.
 
-100% safe by vardhanrajya08@gmail.com
+👉 Copy this code and save it as name.bat.
 
-Run as administration for best respose. 
+👉 100% safe by vardhanrajya08@gmail.com
+
+👉 Run as administration for best respose. 
