@@ -7,4 +7,4 @@
 
 👉 100% safe by vardhanrajya08@gmail.com
 
-👉 Run as administration for best respose. 
+👉 Run as administrator for best respose. 
