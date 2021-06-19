@@ -8,3 +8,5 @@
 👉 100% safe by vardhanrajya08@gmail.com
 
 👉 Run as administrator for best respose. 
+
+👉 Use https://docs.google.com/document/d/1mqi2CHsKIzU3Phhe0siaoQDGPMu42sKfd1z-rydLDe0/edit?usp=sharing as a manual
