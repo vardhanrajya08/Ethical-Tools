@@ -1,5 +1,5 @@
 # Windows_Tools
-‼ 0.2 version - on 1st week of june 2021 [with 20 packages/tools] ‼
+‼ NEW 0.2 version - [with 20 packages/tools] ‼
 
 👉 Get your life easy on windows.
 
