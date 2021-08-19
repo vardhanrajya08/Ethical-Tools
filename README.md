@@ -10,3 +10,5 @@
 👉 Run as administrator for best respose. 
 
 👉 Use https://docs.google.com/document/d/1mqi2CHsKIzU3Phhe0siaoQDGPMu42sKfd1z-rydLDe0/edit?usp=sharing as a manual.
+
+👉 Download: https://drive.google.com/drive/folders/1bCCzaFNiLG8zY1L-QcqQiXNd9GyMmVpY?usp=sharing
