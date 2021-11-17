@@ -49,66 +49,87 @@ if %activate%==bash\developer\mode goto :dev_side
 if %activate%==activatewifikeycontent goto :wifi key content
 if %activate%==activateone goto :wifi key content
 if %activate%==activate/1 goto :wifi key content
+if %activate%==1 goto :wifi key content
 if %activate%==activatecalculator goto :calculator
 if %activate%==activatetwo goto :calculator
 if %activate%==activate/2 goto :calculator
+if %activate%==2 goto :calculator
 if %activate%==activatesysteminformation goto :system information
 if %activate%==activatethree goto :system information 
 if %activate%==activate/3 goto :system information
+if %activate%==3 goto :system information
 if %activate%==activatedevops goto :devops
 if %activate%==activatefour goto :devops
 if %activate%==activate/4 goto :devops
+if %activate%==4 goto :devops
 if %activate%==activateipaddress goto :ipaddress
 if %activate%==activatefive goto :ipaddress
 if %activate%==activate/5 goto :ipaddress
+if %activate%==5 goto :ipaddress
 if %activate%==activatehostname goto :hostname
 if %activate%==activatesix goto :hostname
 if %activate%==activate/6 goto :hostname
+if %activate%==6 goto :hostname
 if %activate%==activaterunningtasks goto :runningtasks
 if %activate%==activateseaven goto :runningtasks
 if %activate%==activate/7 goto :runningtasks
+if %activate%==7 goto :runningtasks
 if %activate%==activatenetworkstatistics goto :networkstatistics
 if %activate%==activateeight goto :networkstatistics
 if %activate%==activate/8 goto :networkstatistics
+if %activate%==8 goto :networkstatistics
 if %activate%==activatetraceroute goto :traceroute
 if %activate%==activatenine goto :traceroute
 if %activate%==activate/9 goto :traceroute
+if %activate%==9 goto :traceroute
 if %activate%==activatepowerconfiguration goto :powerconfiguration
 if %activate%==activateonezero goto :powerconfiguration
 if %activate%==activate/10 goto :powerconfiguration
+if %activate%==10 goto :powerconfiguration
 if %activate%==activatemacaddress goto :macaddress
 if %activate%==activateoneone goto :macaddress
 if %activate%==activate/11 goto :macaddress
+if %activate%==11 goto :macaddress
 if %activate%==activateallfilesscanner goto :allfilesscanner
 if %activate%==activateonetwo goto :allfilesscanner
 if %activate%==activate/12 goto :allfilesscanner 
+if %activate%==12 goto :allfilesscanner 
 if %activate%==activateallfilesscannerandrepair goto :allfilesscannerandrepair
 if %activate%==activateonethree goto :allfilesscannerandrepair
 if %activate%==activate/13 goto :allfilesscannerandrepair
+if %activate%==13 goto :allfilesscannerandrepair
 if %activate%==activatedrivescanner goto :drivescanner
 if %activate%==activateonefour goto :drivescanner
 if %activate%==activate/14 goto :drivescanner
+if %activate%==14 goto :drivescanner
 if %activate%==datatransmitbooster goto :datatransmitbooster
 if %activate%==activateonefive goto :datatransmitbooster
 if %activate%==activate/15 goto :datatransmitbooster
+if %activate%==15 goto :datatransmitbooster
 if %activate%==activatematrixeffect goto :matrixeffect
 if %activate%==activateonesix goto :matrixeffect
 if %activate%==activate/16 goto :matrixeffect
+if %activate%==16 goto :matrixeffect
 if %activate%==activatesystemdatabase goto :systemdatabase
 if %activate%==activateoneseaven goto :systemdatabase
 if %activate%==activate/17 goto :systemdatabase
+if %activate%==17 goto :systemdatabase
 if %activate%==activatednsresolvercacherefresher goto :dnsresolvercacherefresher
 if %activate%==activateoneeight goto :dnsresolvercacherefresher
 if %activate%==activate/18 goto :dnsresolvercacherefresher
+if %activate%==18 goto :dnsresolvercacherefresher
 if %activate%==activateping goto :ping
 if %activate%==activate/onenine goto :ping
 if %activate%==activate/19 goto :ping
+if %activate%==19 goto :ping
 if %activate%==activatedisabletouchpad goto :disabletouchpad
 if %activate%==activate/twozero goto :disabletouchpad
 if %activate%==activate/20 goto :disabletouchpad
+if %activate%==20 goto :disabletouchpad
 if %activate%==activategodmode goto :godmode
 if %activate%==activate/twoone goto :godmode
 if %activate%==activate/21 goto :godmode
+if %activate%==21 goto :godmode
 goto :mm
 
 :dev_side
