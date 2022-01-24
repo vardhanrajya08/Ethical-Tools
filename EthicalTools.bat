@@ -43,6 +43,7 @@ echo 18) DNS resolver cache refresher (new)
 echo 19) Ping (new)
 echo 20) Disable Touchpad (new) [UNDER CONSTRUCTION]
 echo 21) God Mode (new)
+echo 22) DNS Lookup (new)
 echo ------------------------------------------------------------------------------------------
 set /p activate= Rajya~
 if %activate%==bash\developer\mode goto :dev_side
@@ -130,6 +131,10 @@ if %activate%==activategodmode goto :godmode
 if %activate%==activate/twoone goto :godmode
 if %activate%==activate/21 goto :godmode
 if %activate%==21 goto :godmode
+if %activate%==activatednslookup goto :dnslookup
+if %activate%==activate/twotwo goto :dnslookup
+if %activate%==activate/22 goto :dnslookup
+if %activate%==22 goto :dnslookup
 goto :mm
 
 :dev_side
@@ -437,4 +442,16 @@ echo D O N E
 echo ------------------------------------------------------------------------------------------
 start msgbox.vbs
 pause 
+goto :mm
+
+***********************************************************************************************
+
+:dnslookup
+color 02
+echo Check live DNS lookup for recent IP addresses of any domain names
+pause 
+echo Enter Domain name:
+set /p name= Rajya~
+nslookup %name%
+pause
 goto :mm
