@@ -37,7 +37,7 @@ EthicalTools.bat
 
 
 # Github Status
-[![Stats](https://github-stats-alpha.vercel.app/api/?username=indiancybertroops&cc=fff&tc=DF7431&ic=DF7431 "Stats")](https://github.com/vardhanrajya08 "Stats")<br>
+[![Stats](https://github-stats-alpha.vercel.app/api/?username=vardhanrajya08&cc=fff&tc=DF7431&ic=DF7431 "Stats")](https://github.com/vardhanrajya08 "Stats")<br>
 
 ## Contact Us: 
 
