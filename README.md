@@ -21,7 +21,7 @@
 git clone https://github.com/vardhanrajya08/Ethical-Tool
 ```
 ```
-cd Ethical-Tool
+cd Ethical-Tools
 ```
 ```
 EthicalTools.bat
