@@ -39,13 +39,15 @@ echo 14) Drive Scanner
 echo 15) Data Transmit Booster
 echo 16) Matrix Effect
 echo 17) System Database
-echo 18) DNS resolver cache refresher (new)
-echo 19) Ping (new)
+echo 18) DNS resolver cache refresher
+echo 19) Ping
 echo 20) Disable Touchpad (new) [UNDER CONSTRUCTION]
-echo 21) God Mode (new)
-echo 22) DNS Lookup (new)
+echo 21) God Mode
+echo 22) DNS Lookup
+echo 23) Base64 Encrypter (new)
+echo 24) Base64 Decrypter (new)
 echo ------------------------------------------------------------------------------------------
-set /p activate= Rajya~
+set /p activate= EthicalTools ~ 
 if %activate%==bash\developer\mode goto :dev_side
 if %activate%==activatewifikeycontent goto :wifi key content
 if %activate%==activateone goto :wifi key content
@@ -135,6 +137,14 @@ if %activate%==activatednslookup goto :dnslookup
 if %activate%==activate/twotwo goto :dnslookup
 if %activate%==activate/22 goto :dnslookup
 if %activate%==22 goto :dnslookup
+if %activate%==activatebase64encrypter goto :Base64Encrypter
+if %activate%==activate/twothree goto :Base64Encrypter
+if %activate%==activate/23 goto :Base64Encrypter
+if %activate%==23 goto :Base64Encrypter
+if %activate%==activatebase64decrypter goto :Base64Decrypter
+if %activate%==activate/twofour goto :Base64Decrypter
+if %activate%==activate/24 goto :Base64Decrypter
+if %activate%==24 goto :Base64Decrypter
 goto :mm
 
 :dev_side
@@ -161,14 +171,14 @@ echo ---------------------------------------------------------------------------
 color 02
 echo ------------------------------------------------------------------------------------------
 echo Input wifi name or server ID:
-set /p name= Rajya~
+set /p name= EthicalTools ~ 
 goto :b1
 
 :b1
 color 04
 echo ------------------------------------------------------------------------------------------
 echo Do you want to proceed with %name% ? [yes or no]
-set /p conf= Rajya~
+set /p conf= EthicalTools ~ 
 if %conf%==yes goto :yes1
 if %conf%==no goto :mm
 goto :input name
@@ -207,7 +217,7 @@ goto :mm
 color 05
 echo ------------------------------------------------------------------------------------------
 echo Enter command : 
-set /p code= Rajya~
+set /p code= EthicalTools ~ 
 pause
 echo ------------------------------------------------------------------------------------------
 %code%
@@ -316,9 +326,9 @@ goto :mm
 echo ------------------------------------------------------------------------------------------
 color 04
 echo Which DRIVE do you want to scan ?
-set /p drive= Rajya~
+set /p drive= EthicalTools ~ 
 echo Do you want to proceed with " %drive% " DRIVE ? [yes or no]
-set /p conf= Rajya~
+set /p conf= EthicalTools ~ 
 if %conf%==yes goto :scanthedrive
 if %conf%==no goto :drivescanner
 
@@ -413,7 +423,7 @@ goto :mm
 color 07
 echo ------------------------------------------------------------------------------------------
 echo Input name or ip address of server : 
-set /p name_or_ip_address= Rajya~
+set /p name_or_ip_address= EthicalTools ~ 
 color 02
 echo ------------------------------------------------------------------------------------------
 ping %name_or_ip_address%
@@ -451,7 +461,41 @@ color 02
 echo Check live DNS lookup for recent IP addresses of any domain names
 pause 
 echo Enter Domain name:
-set /p name= Rajya~
+set /p name= EthicalTools ~ 
 nslookup %name%
+pause
+goto :mm
+
+***********************************************************************************************
+
+:Base64Encrypter
+echo ---------------------------------
+echo "[  Enter Some text to encode  ]"
+echo ---------------------------------
+echo                                                                                          l
+set /p value=
+echo ---------------------------------
+echo "[       Encoded text is       ]" 
+echo ---------------------------------
+echo                                                                                          l
+echo -n '%value%' | base64
+echo                                                                                          l
+pause
+goto :mm
+
+***********************************************************************************************
+
+:Base64Decrypter
+echo ---------------------------------
+echo "[  Enter Some text to decode  ]"
+echo ---------------------------------
+echo                                                                                          l
+set /p value=
+echo ---------------------------------
+echo "[       Decoded text is       ]" 
+echo ---------------------------------
+echo                                                                                          l
+echo -n '%value%' | base64 --decode
+echo                                                                                          l
 pause
 goto :mm
